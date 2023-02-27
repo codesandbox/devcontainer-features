@@ -39,3 +39,6 @@ apt install -y \
     vim \
     wget \
     zsh
+
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+chsh --shell /bin/zsh root
