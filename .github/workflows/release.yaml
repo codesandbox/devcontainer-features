@@ -16,5 +16,6 @@ jobs:
         uses: devcontainers/action@v1
         with:
           publish-features: "true"
+          base-path-to-features: "./src"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
