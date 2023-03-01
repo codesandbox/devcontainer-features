@@ -44,4 +44,5 @@ apt install -y \
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 chsh --shell /bin/zsh root
 
+cd /
 rm -rf /tmp/devcontainer-install/
