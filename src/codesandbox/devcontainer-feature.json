@@ -1,6 +1,6 @@
 {
     "id": "codesandbox",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "name": "CodeSandbox Dev environment",
     "documentationURL": "https://github.com/codesandbox/devcontainer-features",
     "description": "Installs tools needed to work in CodeSandbox cloud sandboxes and repos"
