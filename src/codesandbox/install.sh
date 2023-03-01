@@ -8,6 +8,7 @@ else
     DOCKER_DOWNLOAD_ARCH="x86_64"
 fi
 
+mkdir -p /tmp/devcontainer-install/
 cd /tmp/devcontainer-install/
 
 # Download docker cli and install
@@ -42,3 +43,6 @@ apt install -y \
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 chsh --shell /bin/zsh root
+
+cd /
+rm -rf /tmp/devcontainer-install/
