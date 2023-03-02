@@ -12,6 +12,7 @@ apt install -y \
     mc \
     nano \
     ncdu \
+    tar \
     vim \
     wget \
     zsh
